@@ -1,0 +1,24 @@
+{
+    "name": "sinevia/php-library-sugar",
+    "description": "PHP Library Sugar",
+    "type": "library",
+    "keywords": ["sugar", "library", "php", "sinevia"],    
+    "homepage": "http://github.com/sinevia/php-library-sugar",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Milan Lesichkov",
+            "email": "lesichkovm@gmail.com",
+            "homepage": "http://lesichkov.co.uk",
+            "role": "Lead Developer"
+        }
+    ],
+    "require": {
+        "sinevia/php-library-utils": "*"
+    },
+    "autoload": {
+        "files": [
+            "src/sugar.php"
+        ]
+    }
+}
