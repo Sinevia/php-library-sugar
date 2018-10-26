@@ -1,5 +1,7 @@
 <?php
 
+define('SUGAR_TIME_START', microtime(true));
+
 function alert($var) {
     \Sinevia\Utils::alert($var);
 }
@@ -219,3 +221,5 @@ function web() {
 if (isCli() == false) {
     web();
 }
+
+define('SUGAR_TIME_END', microtime(true));
